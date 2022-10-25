@@ -5,6 +5,7 @@
   "description": "A tool to airdrop tokens",
   "source": "src/index.html",
   "scripts": {
+    "dev": "parcel src/index.html",
     "start": "parcel",
     "build": "parcel build"
   },
@@ -21,7 +22,7 @@
   "homepage": "https://github.com/Dayo-Adewuyi/Boon#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.5.0",
-    "parcel": "^1.12.4",
+    "parcel": "^1.12.3",
     "prettier": "^2.4.1"
   },
   "dependencies": {
@@ -30,5 +31,8 @@
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.7.2"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
   }
 }
