@@ -1,5 +1,5 @@
 {
-  "name": "boon",
+  "name": "portfolio",
   "version": "1.0.1",
   "private": "true",
   "description": "A tool to airdrop tokens",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dayo-Adewuyi/Boon"
+    "url": "git+https://github.com/GokeAdewuyi/Portfolio/"
   },
   "keywords": [],
-  "author": "Dayo Adewuyi",
+  "author": "Goke Adewuyi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dayo-Adewuyi/Boon/issues"
+    "url": "https://github.com/GokeAdewuyi/Portfolio/issues"
   },
   "homepage": "https://github.com/Dayo-Adewuyi/Boon#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.5.0",
-    "parcel": "^2.0.1",
+    "parcel": "^1.12.4",
     "prettier": "^2.4.1"
   },
   "dependencies": {
